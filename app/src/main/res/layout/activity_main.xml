@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_rll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chill_tohka"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/app_title"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/sxyy2"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/english_btn"
+            style="@style/button"
+            android:text="English" />
+
+        <Button
+            android:id="@+id/japanese_btn"
+            style="@style/button"
+            android:layout_marginTop="10dp"
+            android:text="Japanese" />
+
+        <Button
+            android:id="@+id/chinese_btn"
+            style="@style/button"
+            android:layout_marginTop="10dp"
+            android:text="Chinese" />
+
+        <Button
+            android:id="@+id/korean_btn"
+            style="@style/button"
+            android:layout_marginTop="10dp"
+            android:text="Korean" />
+
+        <Button
+            android:id="@+id/local_btn"
+            style="@style/button"
+            android:layout_marginTop="10dp"
+            android:text="Local" />
+
+    </LinearLayout>
+
+</RelativeLayout>

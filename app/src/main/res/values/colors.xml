@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="semitrans_white">#C4FFFFFF</color>
+    <color name="trans_white">#00FFFFFF</color>
+    <color name="darker_tohka_purple">#4E227E</color>
+    <color name="dark_tohka_purple">#684490</color>
+    <color name="light_tohka_purple">#AE87D6</color>
+    <color name="lighter_tohka_purple">#EED5FE</color>
+</resources>
